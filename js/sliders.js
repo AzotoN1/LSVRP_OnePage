@@ -160,3 +160,13 @@ $('.dot').on('click', function(){
 	});//prev
 //slideshow
 });
+
+////////////////////////////////////
+
+$(document).ready(function(){
+  $('.between-slider').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3
+});
+});
